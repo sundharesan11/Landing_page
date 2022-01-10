@@ -1,0 +1,140 @@
+body{
+    width: 800px;
+    margin: 30px;
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(34, 30, 30);
+}
+.h1 {
+    display:flex;
+}
+.h1 li {
+    flex:1;
+    margin-right: 10px ;
+}
+header {
+    background-color: #1F2937;
+    color:white;
+    height: 300px;
+}
+.container1 {
+    display: flex;
+    height:100px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 50px;
+   
+}
+
+.container1 div {
+    height:170px;
+    width: 170px;
+    flex:1;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.container1 .para1 {
+    font-size: 30px;
+}
+.container1 .para2 {
+    font-size: 10px;
+    color:#E5E7EB ;
+}
+.b {
+    color:#E5E7EB;
+    background-color:#2f6dca;
+    padding:0px 7px 0px 7px;
+    border: 1px solid rgb(18, 100, 223);
+    border-radius: 5px;
+}
+.container1 .box1 {
+    background-color:#8e94a0;
+    align-items: center;
+    text-align-last: center;
+    padding-top: 60px;
+    font-size: 30px;
+}
+header nav {
+    list-style-type: none;
+}
+header nav li {
+    display:inline-block;
+}
+.box1 {
+    box-sizing: border-box;
+    background-color: #8e94a0;
+}
+.s1{
+    background-color:#E5E7EB;
+    height: 350px;
+    justify-content:center ;
+}
+.p2 {
+    text-align:center;
+}
+.square {
+    height: 100px;
+    width:  100px;
+    border: 2px solid rgb(18, 100, 223);
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
+    float: left;
+    margin-left: 35px;
+}
+.simg {
+    width: 100px;
+    height:100px;
+    object-fit: fill;
+}
+.s2{
+    background-color: #8e94a0;
+    height:200px;
+}
+.quote {
+    margin:50px 80px 40px 80px;
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 18px;
+    text-align-last: center;
+}
+.quoter {
+margin-left: 500px;
+}
+.section4 {
+ background-color:#E5E7EB;
+ height: 200px;
+display: flex;
+}
+.section4 div {
+    flex:1;
+}
+.last{
+    height:100px;
+    width: 670px;
+    color:white;
+    border:1px solid rgb(18, 100, 223);
+    background-color: rgb(18, 100, 223);
+    align-items: center;
+    margin:50px 70px 50px 70px;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+.b1{
+    color:white;
+    background-color: rgb(18, 100, 223);
+    margin-left: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+footer {
+    background-color: #1f2937;
+    color:white;
+    height: 70px;
+}
+.ftr{
+    text-align:center;
+    margin-top: 25px;
+}
